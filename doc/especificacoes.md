@@ -60,7 +60,7 @@ Requisitos:
 - Para cadastrar uma estadia, é preciso que o CLIENTE e o 	QUARTO estejam CADASTRADOS.
 - As estadias devem ser cadastradas apenas para quartos com status desocupados.
 - Não devem ser feitas mais de uma estadia para um mesmo quarto em um mesmo período (data de entrada, data de saída).
-  - **Início da diária: 14 horas do dia atual**
+  - **Início da diária: 14 horas do dia da entrada**
   - **Fim da diária: 12 horas do dia seguinte**
 
 **Implementações principais:**
