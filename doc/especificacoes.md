@@ -63,7 +63,7 @@ Requisitos:
   - **Início da diária: 14 horas do dia atual**
   - **Fim da diária: 12 horas do dia seguinte**
 
-**	Implementações principais:
+**Implementações principais:
 
 - Função de **cadastro de cliente** - garantir que não há mais de um cliente com o mesmo código.
 - Função de **cadastro de funcionário** - garantir que não há mais de um cliente com o mesmo código.
