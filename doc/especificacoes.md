@@ -23,17 +23,19 @@ Cadastrar:
 
 Informações a serem cadastradas:
 
-  - Cliente 
+- Cliente 
   - Código
   - Nome
   - Endereço
   - Telefone
+  
 - Funcionário
   - Código
   - Nome
   - Telefone
   - Cargo
   - Salário
+  
 - Estadia
   - Código da estadia
   - Data de entrada
@@ -47,10 +49,10 @@ Informações a serem cadastradas:
   - Quantidade de hóspedes
   - Valor diária
   - Status  
-        │
-        └── Ocupado
-        │
-        └── Desocupado
+        │  
+        └── Ocupado  
+        │  
+        └── Desocupado  
 
 
 Requisitos:
