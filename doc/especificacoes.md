@@ -89,8 +89,9 @@ A quantidade de diárias deverá ser calculada com base na data de entrada e sa�
 Opção de:
 
 - Cadastrar um cliente;
-- Funcionário;
-- Estadia;
+- Cadastrar um funcionário;
+- Cadastrar uma estadia;
+- Baixa de estadia;
 - Realizar pesquisas
 
 Deve ficar em loop até o usuário selecionar a opção de SAIR.
