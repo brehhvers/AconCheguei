@@ -7,5 +7,5 @@ Sistema:
 Git:
 
 - Commit: 
-  - Nova funcionalidade: feat: descricao da(s) nova(s) funcionalidade(s)
-  - Correção de bug: fix: descricao do bug corrigido
+  - Nova funcionalidade: feat: descrição da(s) nova(s) funcionalidade(s)
+  - Correção de bug: fix: descrição do bug corrigido
