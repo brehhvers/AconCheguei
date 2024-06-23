@@ -23,11 +23,11 @@ Cadastrar:
 
 Informações a serem cadastradas:
 
-- ` `Cliente 
+  - Cliente 
   - Código
   - Nome
   - Endereço
-  - Telefone.
+  - Telefone
 - Funcionário
   - Código
   - Nome
@@ -46,9 +46,11 @@ Informações a serem cadastradas:
   - Número do quarto
   - Quantidade de hóspedes
   - Valor diária
-  - Status	\_\_\_\_\_\_\_\_ Ocupado
-
-    `		`|\_\_ Desocupado
+  - Status  
+        │
+        └── Ocupado
+        │
+        └── Desocupado
 
 
 Requisitos:
@@ -71,11 +73,11 @@ Requisitos:
 
 A partir dessas informações, o sistema deve encontrar um quarto que esteja disponível para quantidade de hóspedes desejados.
 
-`	`A quantidade de diárias deverá ser calculada com base na data de entrada e saída.
+`	A quantidade de diárias deverá ser calculada com base na data de entrada e saída.
 
 - Função que **dê baixa em uma determinada estadia**, **calcule** e **mostre o valor total a ser pago por um determinado cliente.**
 
-`	`**Alterar o status para desocupado.**
+`	**Alterar o status para desocupado.**
 
 - Funções que realizam pesquisa tanto para clientes quanto para funcionários. Ao digitar o nome ou código, apresenta na tela todas as informações do cliente ou funcionário.
 - Função que mostre na tela todas as estadias de um determinado cliente(histórico).
