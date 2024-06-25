@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1719277890 source:c:\users\dtidigital\capacitacao\react\aconcheguei\codigo\aconcheguei\main.c
+	<stdio.h>
+	"estruturas.h"
+	"funcoes-cadastro.h"
+
+1719282225 c:\users\dtidigital\capacitacao\react\aconcheguei\codigo\aconcheguei\estruturas.h
+
+1719281431 c:\users\dtidigital\capacitacao\react\aconcheguei\codigo\aconcheguei\funcoes-cadastro.h
+	<stdio.h>
+	<string.h>
+	"estruturas.h"
+
+1719283717 source:c:\users\dtidigital\capacitacao\react\aconcheguei\codigo\aconcheguei\funcoes-cadastro.c
+	<stdio.h>
+	<string.h>
+	"estruturas.h"
+	"funcoes-cadastro.h"
+
