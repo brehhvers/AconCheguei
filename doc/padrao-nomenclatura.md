@@ -1,8 +1,9 @@
 Sistema:
 
-- Variáveis e parâmetros: nome\_da\_variavel
+- Variáveis parâmetros: nome\_da\_variavel
 - Funções: NomeDaFuncao
 - Nome de arquivo: nome-do-arquivo
+- Structs: nomeDoStruct
 
 Git:
 
