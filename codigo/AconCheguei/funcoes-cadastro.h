@@ -5,6 +5,7 @@
 * São originadas do arquivo "funcoes-cadastro.c"
 *
 * AUTOR : Brenda Evers
+* AUTOR : Gabriel Lacerda Lemos da Silva
 * DATA DE INÍCIO : 24 Jun 2024
 *********************************************************/
 
@@ -17,5 +18,7 @@
 #include "estruturas.h"
 
 void cadastrarCliente();
+
+void cadastrarQuarto();
 
 #endif

@@ -9,6 +9,7 @@
 * "main.c".
 *
 * AUTOR : Brenda Evers
+* AUTOR : Gabriel Lacerda Lemos da Silva
 * DATA DE INÍCIO : 24 Jun 2024
 *********************************************************/
 
@@ -20,7 +21,7 @@
 void cadastrarCliente() {
     structCliente cliente;
 
-    printf("Codigo do cliente: ");
+    printf("\nCodigo do cliente: ");
     scanf("%d", &cliente.codigo);
     getchar();
 
@@ -44,4 +45,33 @@ void cadastrarCliente() {
 
     fprintf(file, "%d %s %s %s\n", cliente.codigo, cliente.nome, cliente.endereco, cliente.telefone);
     fclose(file);
+
+    printf("\n**Cadastrado com sucesso!**\n");
+    printf("\n============================\n");
+}
+
+void cadastrarQuarto() {
+    structQuarto quarto;
+
+    printf("\nDigite o numero do Quarto: ");
+    scanf("%d",&quarto.numero);
+
+    printf("Digite a quantidade de hospedes: ");
+    scanf("%d",&quarto.quantidadeHospedes);
+
+    printf("Digite o valor da diaria: ");
+    scanf("%f",&quarto.valorDiaria);
+
+    quarto.status = 0;
+
+    FILE *file = fopen("quartos.txt", "a");
+    if (file == NULL) {
+        printf("Nao foi possivel abrir o arquivo.\n");
+        return;
+    }
+    fprintf(file, "%d %d %.2f %d\n",quarto.numero, quarto.quantidadeHospedes, quarto.valorDiaria, quarto.status);
+    fclose(file);
+
+    printf("\n**Cadastrado com sucesso!**\n");
+    printf("\n============================\n");
 }

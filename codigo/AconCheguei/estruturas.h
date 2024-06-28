@@ -26,4 +26,11 @@ typedef struct {
     float salario;
 } structFuncionario;
 
+typedef struct {
+    int numero;
+    int quantidadeHospedes;
+    float valorDiaria;
+    int status;
+} structQuarto;
+
 #endif
