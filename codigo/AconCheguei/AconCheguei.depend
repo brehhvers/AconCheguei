@@ -17,24 +17,27 @@
 	"estruturas.h"
 	"funcoes-cadastro.h"
 
-1719541666 source:c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\funcoes-cadastro.c
+1719881422 source:c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\funcoes-cadastro.c
 	<stdio.h>
 	<string.h>
+	"funcoes-uteis.h"
 	"estruturas.h"
 	"funcoes-cadastro.h"
 
-1719513207 c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\estruturas.h
+1719880155 c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\estruturas.h
+	<time.h>
 
-1719519626 c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\funcoes-cadastro.h
+1719544164 c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\funcoes-cadastro.h
 	<stdio.h>
 	<string.h>
 	"estruturas.h"
 
-1719528263 source:c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\main.c
+1719880453 source:c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\main.c
 	<stdio.h>
 	"estruturas.h"
 	"funcoes-cadastro.h"
 	"funcoes-uteis.h"
+	<time.h>
 
-1719541569 c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\funcoes-uteis.h
+1719544164 c:\users\gabriel\desktop\aconcheguei-main\codigo\aconcheguei\funcoes-uteis.h
 
